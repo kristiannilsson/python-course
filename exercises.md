@@ -11,34 +11,36 @@ def my_function(argument1, argument2):
 
 ### Easy
 #### E 1.1 Ålderskontroll (If-else)
-Skriv ett program som tar in användarens ålder och sedan skriver ut om de är minderåriga (under 18 år), vuxna (mellan 18 och 65) eller pensionärer (över 65).
+Skriv en funktion som tar in användarens ålder och sedan skriver ut om de är minderåriga (under 18 år), vuxna (mellan 18 och 65) eller pensionärer (över 65).
 
 #### E 1.2 Jämnt eller udda (If-else)
-Skriv ett program som tar in en enskild siffra och skriver ut om den är udda eller jämn.
+Skriv en funktion som tar in en enskild siffra och skriver ut om den är udda eller jämn.
 
 #### E 1.3 - Intervall (If-else)
 Skapa funktionen `in_range(lower, upper)` som avgör ifall ett tal är inom det angivna intervallet. Om talet finns i ändpunkterna räknas det som inom intervallet.
 
 #### E 1.4 - Favoritfrukter (Listor)
-1. Skapa en lista som innehåller fem element, som är dina favoritfrukter.
-2. Lägg till en ny frukt i listan.
-3. Ändra det tredje elementet till en annan frukt.
-4. Ta bort det sista elementet i listan.
-5. Skriv ut varje frukt i listan på en ny rad.
+Skriva en funktion som:
+1. Skapar en lista som innehåller fem element, som är dina favoritfrukter.
+2. Lägger till en ny frukt i listan.
+3. Ändrar det tredje elementet till en annan frukt.
+4. Tar bort det sista elementet i listan.
+5. Skriver ut varje frukt i listan på en ny rad.
 
 #### E 1.5 List slicing (Listor)
-1. Skapa en lista som innehåller numren 1 till 10.
-2. Använd list slicing för att skriva ut de första fem numren.
-3. Använd list slicing för att skriva ut de sista fyra numren.
-4. Skriv ut varannat nummer i listan, börjande med det första.
-5. Skapa en ny lista som är en kopia av den omvända original listan.
+Skriva en funktion som:
+1. Skapar en lista som innehåller numren 1 till 10.
+2. Använder list slicing för att skriva ut de första fem numren.
+3. Använder list slicing för att skriva ut de sista fyra numren.
+4. Skriver ut varannat nummer i listan, börjande med det första.
+5. Skapar en ny lista som är en kopia av den omvända original listan.
 
 #### E 1.6 Minst och störst (Listor)
-1. Skapa en lista med 10 slumpmässiga heltal.
-2. Leta reda på en inbyggd funktion för att hitta det största talet.
-3. Leta reda på en funktion för att hitta det minsta talet.
-4. Hitta summan av alla tal i listan.
-5. Sortera listan från lägst till högst.
+1. Skapar en lista med 10 slumpmässiga heltal.
+2. Letar reda på en inbyggd funktion för att hitta det största talet.
+3. Letar reda på en funktion för att hitta det minsta talet.
+4. Hittar summan av alla tal i listan.
+5. Sorterar listan från lägst till högst.
 
 #### E 1.7 Kombinera listor (Listor)
 Skapa en funktion som tar två listor med heltal som argument och returnerar en kombinerad och sorterad lista av dessa.
@@ -53,10 +55,12 @@ Skapa en funktion som tar in två lika långa listor som argument. Returnera en 
 ### Medium
 #### M 1.1 - Nästlade listor
 En nästlad lista är en lista inuti en annan lista.
+
+Skriva en funktion som:
 1. Skapa en nästlad lista där varje element är en lista som innehåller tre tal.
-2. Skriv ut det första talet från varje nästlad lista med hjälp av en loop.
-3. Lägg till ett fjärde tal i varje nästlad lista.
-4. Använd en loop för att skriva ut summan av talen i varje nästlad lista.
+2. Skriver ut det första talet från varje nästlad lista med hjälp av en loop.
+3. Lägger till ett fjärde tal i varje nästlad lista.
+4. Använder en loop för att skriva ut summan av talen i varje nästlad lista.
 
 #### M 1.2 Mest förekommande talet
 Skapa en funktion som tar in lista som argument, och returnerar det värdet som förekommer flest gånger i listan.
