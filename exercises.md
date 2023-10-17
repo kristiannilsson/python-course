@@ -61,7 +61,7 @@ Skapa en funktion som tar in två lika långa listor som argument. Returnera en 
 
 #### E 1.11 Loopa genom Dictionaries (Dictionaries, Loopar)
 
-- Skapa en dictionary där nycklarna är nummer mellan 1 och 15 och värdena är nycklarnas kvadrater.
+- Skapa en dictionary programmatiskt (ej manuellt) där nycklarna är nummer mellan 1 och 15 och värdena är nycklarnas kvadrater.
 - Skriv ut varje nyckel-värde-par på en ny rad.
 - Beräkna och skriv ut summan av alla värden i dictionaryn.
  
