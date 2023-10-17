@@ -64,6 +64,11 @@ Skapa en funktion som tar in två lika långa listor som argument. Returnera en 
 - Skapa en dictionary programmatiskt (ej manuellt) där nycklarna är nummer mellan 1 och 15 och värdena är nycklarnas kvadrater.
 - Skriv ut varje nyckel-värde-par på en ny rad.
 - Beräkna och skriv ut summan av alla värden i dictionaryn.
+
+#### E 1.12 Reading a File:
+
+- Write a Python script that reads a file and prints its contents to the console. Create a text file with several lines of text for testing purposes.
+- Additional: Modify the script to read the file line by line and print each one with its line number.
  
 
 ### Medium
@@ -101,6 +106,11 @@ Givet en lång sträng av ord, skapa en dictionary som visar antalet av varje or
 
 #### M 1.9 Invertera en Dictionary
 Skapa en dictionary med objekt där nycklarna är unika, men värdena är inte det. Skriv en funktion för att invertera dictionaryn, genom att göra värdena från den ursprungliga dictionaryn till nycklar och nycklarna från den ursprungliga dictionaryn till värden i den nya.
+
+#### M 1.10 Copying a File
+
+- Write a program that copies the contents of one file to another file.
+- Additional: Modify the script to only copy lines that contain a specific word.
 
 ### Hard
 Många av dessa övningar är lånade, varför engelska förekommer som instruktionsspråk ibland.
