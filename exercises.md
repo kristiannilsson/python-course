@@ -51,6 +51,20 @@ Skapa en funktion som tar in en lista med helt som argument, och returnerar hur 
 #### E 1.9 Summan av två listor (Listor, Loopar)
 Skapa en funktion som tar in två lika långa listor som argument. Returnera en lista där varje element är summan av de två listornas respektive element.
 
+#### E 1.10 Grundläggande nyckel-värde-parning
+
+- Skapa en dictionary som representerar en person; den ska innehålla förnamn, efternamn, ålder och e-postadress.
+- Skriv ut varje informationsdel individuellt med hjälp av nycklarna.
+- Lägg till ett nytt nyckel-värde-par som representerar personens hemstad.
+- Kontrollera om personen har en nyckel "mellannamn". Om inte, lägg till det med ett värde efter eget val.
+- Uppdatera personens ålder genom att öka den med ett.
+
+#### E 1.11 Loopa genom Dictionaries (Dictionaries, Loopar)
+
+- Skapa en dictionary där nycklarna är nummer mellan 1 och 15 och värdena är nycklarnas kvadrater.
+- Skriv ut varje nyckel-värde-par på en ny rad.
+- Beräkna och skriv ut summan av alla värden i dictionaryn.
+ 
 
 ### Medium
 #### M 1.1 - Nästlade listor
@@ -81,6 +95,12 @@ Skriv en funktion som tar in en sträng som argument och returnerar varannan bok
 
 #### M 1.7 Rövarspråket
 Gör ett program som översätter en sträng till rövarspråket. (https://sv.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket)
+
+#### M 1.8 Räkning med Dictionaries
+Givet en lång sträng av ord, skapa en dictionary som visar antalet av varje ord i strängen.
+
+#### M 1.9 Invertera en Dictionary
+Skapa en dictionary med objekt där nycklarna är unika, men värdena är inte det. Skriv en funktion för att invertera dictionaryn, genom att göra värdena från den ursprungliga dictionaryn till nycklar och nycklarna från den ursprungliga dictionaryn till värden i den nya.
 
 ### Hard
 Många av dessa övningar är lånade, varför engelska förekommer som instruktionsspråk ibland.
@@ -117,6 +137,13 @@ Constraints:
 - `-10^9 <= nums[i<= 10^9]`
 - `-10^9 <= target <= 10^9`
 - `Only one valid answer exists.`
+
+#### H 1.2 Roman to Integer
+https://leetcode.com/problems/roman-to-integer/
+
+#### H 1.3 Happy numbers
+https://leetcode.com/problems/happy-number/
+
 
 ### Extreme
 #### Ex 1.1 Longest Unique Substring (Leetcode#3)
@@ -157,6 +184,9 @@ Constraints:
 
 - `0 <= s.length <= 5 * 10^4`
 - s consists of English letters, digits, symbols and spaces.
+
+#### Ex 1.2 Integer to Roman
+https://leetcode.com/problems/integer-to-roman/
 
 
 ### Nightmare
