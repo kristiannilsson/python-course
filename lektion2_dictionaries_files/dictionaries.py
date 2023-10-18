@@ -1,19 +1,22 @@
 
 
-my_dict = {}
+my_dict = {} #skapar en tom dict
 
-my_dict["brand"] = "Ford"
-my_dict["brand"] = "Saab"
-my_dict["year"] = 1990
-my_dict["miles"] = 1990
+my_dict["brand"] = "Ford" #lägger till nyckeln brand me värdet ford
+my_dict["brand"] = "Saab" #uppdaterar nyckeln
+my_dict["year"] = 1990 #lägger till nyckel
+my_dict["miles"] = 1990 # -""-
 
-print(my_dict.keys())
-print(my_dict.values())
-print(my_dict.items())
-my_dict.update({"price": 2000000})
-my_dict | {"price": 2000000}
+print(my_dict.keys()) #ger oss alla nycklar i en lista
+print(my_dict.values()) #ger oss alla värden i en lista
+print(my_dict.items()) #ger oss alla nycklar och värden i en lista
+my_dict.update({"price": 2000000}) #uppdaterar my_dict
+my_dict | {"price": 2000000} #returnerar en ny mergad dict
 
 print(my_dict.get("color", "red"))
+# med get får du ett fallback värde. 
+# Returnerar fallback värdet om nyckeln inte finns
+# default fallbackvärde är None 
 
 """
 1. Basic syntax för en dictionary, komma åt värden
