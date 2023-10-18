@@ -105,7 +105,7 @@ Gör ett program som översätter en sträng till rövarspråket. (https://sv.wi
 Givet en lång sträng av ord, skapa en dictionary som visar antalet av varje ord i strängen.
 
 #### M 1.9 Invertera en Dictionary
-Skapa en dictionary med objekt där nycklarna är unika, men värdena är inte det. Skriv en funktion för att invertera dictionaryn, genom att göra värdena från den ursprungliga dictionaryn till nycklar och nycklarna från den ursprungliga dictionaryn till värden i den nya.
+Skapa en dictionary med objekt där nycklarna är unika, men värdena är inte det. Skriv en funktion för att invertera dictionaryn, genom att göra värdena från den ursprungliga dictionaryn till nycklar och nycklarna från den ursprungliga dictionaryn till värden i den nya. Eftersom nycklar är unika kan vissa värden komma att bli listor.
 
 #### M 1.10 Copying a File
 
@@ -201,34 +201,7 @@ https://leetcode.com/problems/integer-to-roman/
 
 ### Nightmare
 #### N 1.1 Median of Two Sorted Arrays
-Given a string containing just the characters `'('` and `')'`, return *the length of the longest valid (well-formed) parentheses 
-substring.*
+https://leetcode.com/problems/median-of-two-sorted-arrays/
 
- 
-
-Example 1:
-
-Input: `s = "(()"`
-
-Output: `2`
-
-Explanation: The longest valid parentheses substring is `"()"`.
-
-Example 2:
-
-Input: s = `")()())"`
-
-Output: `4`
-
-Explanation: The longest valid parentheses substring is `"()()"`.
-
-Example 3:
-
-Input: `s = ""`
-Output: `0`
- 
-
-Constraints:
-
--`0 <= s.length <= 3 * 104`
--`s[i]` is `'('`, or `')'`.
+#### N 1.2 Longest valid parenthesis
+https://leetcode.com/problems/longest-valid-parentheses/
