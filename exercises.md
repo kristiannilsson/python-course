@@ -137,6 +137,10 @@ Skapa en dictionary med objekt där nycklarna är unika, men värdena är inte d
 - Write a program that copies the contents of one file to another file.
 - Additional: Modify the script to only copy lines that contain a specific word.
 
+#### M 2.1 Basic decorator
+
+Skapa en decorator vid namn `timer` som skriver ut tiden det tar för en funktion att köras. Den ska visa exekveringstiden i sekunder. Läs på om hur man timar en funktion.
+
 ### Hard
 
 Många av dessa övningar är lånade, varför engelska förekommer som instruktionsspråk ibland.
@@ -184,6 +188,12 @@ https://leetcode.com/problems/roman-to-integer/
 
 https://leetcode.com/problems/happy-number/
 
+#### H 1.4 Repeating Decorator
+Skriv en decorator som tar in argumentet `n`. Den underliggande funktionen ska köras `n` gånger om den dekoreras med vår decorator.
+
+#### H 1.5 Authentication Decorator
+
+Skriv en decorator som kollar om en användare är autentiserad eller inte. Om den underliggande funktionen inte kallats med `password="123"` ska `{msg: "Not authenticated"}` returneras.
 
 ### Extreme
 
