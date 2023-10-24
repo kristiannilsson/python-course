@@ -137,8 +137,19 @@ Skapa en dictionary med objekt där nycklarna är unika, men värdena är inte d
 - Write a program that copies the contents of one file to another file.
 - Additional: Modify the script to only copy lines that contain a specific word.
 
-#### M 2.1 Basic decorator
+#### M 2.1 Many arguments
+Create a function that accepts any number of numbers as positional arguments and prints the sum of those numbers. Remember that we can use the sum function to add the values in an iterable.
 
+#### M 2.2 Many more arguments
+Create a function that accepts any number of positional and keyword arguments, and that prints them back to the user. Your output should indicate which values were provided as positional arguments, and which were provided as keyword arguments.
+
+#### M 2.3 Printing a range
+Using * unpacking and range, print the numbers 1 to 20, separated by commas. You will have to provide an argument for print function's sep parameter for this exercise.
+
+Additional:
+Modify your code from exercise 4 so that each number prints on a different line. You can only use a single print call.
+
+#### M 2.4 Basic decorator
 Skapa en decorator vid namn `timer` som skriver ut tiden det tar för en funktion att köras. Den ska visa exekveringstiden i sekunder. Läs på om hur man timar en funktion.
 
 ### Hard
