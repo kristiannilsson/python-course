@@ -152,6 +152,21 @@ Modify your code from exercise 2.3 so that each number prints on a different lin
 #### M 2.4 Basic decorator
 Skapa en decorator vid namn `timer` som skriver ut tiden det tar för en funktion att köras. Den ska visa exekveringstiden i sekunder. Läs på om hur man timar en funktion.
 
+#### M 2.5 Delat med noll
+Skriv en funktion som tar in två argument och returnerar divisionen mellan dem. När det sista argumentet är noll ska funktionen printa: "The division by zero operation is not allowed."
+
+Additional: Hantera felet när argumenten inte är siffror.
+
+#### M 2.6 String reversal
+Skriv en funktion som tar in en sträng och returnerar den baklänges. Skriv sedan testfall som:
+- Testar om funktionen kan reversa en sträng
+- Testar om funktionen hanterar en tom sträng rätt.
+- Testar om funktionen hanterar en sträng med tomma karaktärer.
+- Testar att funktioner kastar ett error om du inte skickar in en sträng
+
+#### M 2.7 Prime number
+Skriv en funktion som kollar ifall ett nummer är ett primtal eller inte. Skriv lämpliga testfall för denna.
+
 ### Hard
 
 Många av dessa övningar är lånade, varför engelska förekommer som instruktionsspråk ibland.
@@ -205,6 +220,19 @@ Skriv en decorator som tar in argumentet `n`. Den underliggande funktionen ska k
 #### H 1.5 Authentication Decorator
 
 Skriv en decorator som kollar om en användare är autentiserad eller inte. Om den underliggande funktionen inte kallats med `password="123"` ska `{msg: "Not authenticated"}` returneras.
+
+#### H 1.6 Giltig Email
+Skriv en funktion som tar in emailadress och returnerar ifall den är giltig eller inte. En emailadress innehåller ett @ och en ändelse med punkt.
+
+Skriv lämpliga testfall för den här funktionen.
+
+Tips: Kolla upp regex.
+
+#### H 1.7 Requests
+Använd biblioteket requests från pip. Försök hämta data från https://dictionaryapi.dev/
+
+#### H 1.8 Numpy
+Använd biblioteket NumPy från pip. Skriv ett program med hjälp av NumPy som kollar ifall om något av elementen i en lista innehåller en nolla.
 
 ### Extreme
 
