@@ -147,7 +147,7 @@ Create a function that accepts any number of positional and keyword arguments, a
 Using * unpacking and range, print the numbers 1 to 20, separated by commas. You will have to provide an argument for print function's sep parameter for this exercise.
 
 Additional:
-Modify your code from exercise 4 so that each number prints on a different line. You can only use a single print call.
+Modify your code from exercise 2.3 so that each number prints on a different line. You can only use a single print call.
 
 #### M 2.4 Basic decorator
 Skapa en decorator vid namn `timer` som skriver ut tiden det tar för en funktion att köras. Den ska visa exekveringstiden i sekunder. Läs på om hur man timar en funktion.
