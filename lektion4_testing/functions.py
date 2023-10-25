@@ -17,6 +17,12 @@ def find_max(a, b):
     return max(a, b)
 
 
+# python -m venv venv
+# venv/scripts/activate (WINDOWS)
+# source venv/bin/activate (MAC)
+# pip install <package_name>
+
+# för att gå ur deactivate
 
 """
 1. venv
