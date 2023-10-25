@@ -16,15 +16,10 @@ def is_even(num):
 def find_max(a, b):
     return max(a, b)
 
-
+# Här skapar du en virtuell miljö för att kunna laborera säkert.
 # python -m venv venv
 # venv/scripts/activate (WINDOWS)
 # source venv/bin/activate (MAC)
 # pip install <package_name>
 
-# för att gå ur deactivate
-
-"""
-1. venv
-2. 
-"""
+# för att gå ur: deactivate
