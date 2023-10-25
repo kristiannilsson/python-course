@@ -29,7 +29,13 @@ def delete_fruit():
     fruit_to_remove = request.json.get("name")
     fruits = get_fruits()
     fruits = list(filter(lambda fruit: fruit["name"] != fruit_to_remove, fruits))
+    with open("fruits.json", "w") as f:
+        json.dump(fruits, f)
     return {"msg": "Fruit deleted sucessfully!"}
+
+@app.route("/errorroute", methods=["GET"])
+def raise_error():
+    raise(RuntimeError)
 
 if __name__ == "__main__":
     app.run(debug=True)
