@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/home", methods=["POST"]) #utan methods är GET default
 @app.route("/index")
 def hello_world():
-    return render_template("index.html", form_url=url_for("login"))
+    return {"msg": "Hello world!"}
 
 
 #dynamisk route så att man kommer åt det sista i URL:en som ett argument
