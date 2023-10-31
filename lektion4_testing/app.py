@@ -12,7 +12,7 @@ def get_fruits():
 @app.route("/fruits", methods=["GET"])
 def get_all_fruits():
     fruits = get_fruits()
-    return {"drinks": fruits}
+    return {"fruits": fruits}
 
 
 @app.route("/fruits", methods=["POST"])
