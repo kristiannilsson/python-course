@@ -10,6 +10,15 @@ my_dict["miles"] = 1990 # -""-
 print(my_dict.keys()) #ger oss alla nycklar i en lista
 print(my_dict.values()) #ger oss alla värden i en lista
 print(my_dict.items()) #ger oss alla nycklar och värden i en lista
+
+#du kan loopa igenom nycklarna i en dict
+for key in my_dict:
+    print(key)
+
+#du kan loopa igenom items via:
+for key, value in my_dict.items():
+    print(key, value)
+
 my_dict.update({"price": 2000000}) #uppdaterar my_dict
 my_dict | {"price": 2000000} #returnerar en ny mergad dict
 
