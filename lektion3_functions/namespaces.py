@@ -3,28 +3,32 @@ Här lär vi oss om namespaces och dokumentation"""
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
 
-pp.pprint(__builtins__)
+#Printar allt inbyggt
 print(dir(__builtins__))
+pp.pprint(dir(__builtins__))
 
-# ligger i det global namespacet
-a = 123
-b = "lorem ipsum"
+#Globala variabler
+a = "123"
+b = "12"
 
-#locals() printar det nuvarande namespacet. Här är globals samma som locals()
-print(globals() == locals())
+def greet():
+    """Greets the user"""
+    #Lokalt scope
+    global b #Om du inte använder denna syftar du på den lokala variabeln b.
+    b = "1234"
+    print(locals()) #printar alla referenser tillgängliga i det lokala scopet. Om du är i det globala scopet är det samma globals()
 
-def add_two(a):
-    """Function adds two to the argument a"""
-    num_to_add = 2
-    #b tar företräde här
-    #använder du global syftar du på b i det globala namespacet.
-    global b
-    b = 2
     print(b)
-    
-    return a + num_to_add
-print(add_two(5))
-#print(globals())
+    print("Hello!")
+
+
+
+print(greet.__doc__) #Printar doc-string som markeras med """Text""". --> Greets the user
+
+
+greet()
+print(globals())
+print(locals())
 """
 1. Allt är dictionaries!
 2. Varför är print() alltid tillgänglig? dir(__builtins__)
@@ -34,16 +38,3 @@ print(add_two(5))
 6. global för local-scope
 7. LGB
 """
-
-def enclosing_function():
-  var = "value"
-  print(locals())
-  def nested_function():
-    #nonlocal syftar på var ett steg upp
-    nonlocal var
-    var = "new_value"  
-
-  nested_function()
-  print(var)
-
-enclosing_function()
